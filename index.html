@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Footer</title>
-</head>
-<body>
+  </head>
+  <body>
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container px-6 py-12 mx-auto">
-            <div class="flex">
-                <a href="#">
-                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
-                </a>
-            </div>
+      <div class="container px-6 py-12 mx-auto">
+        <!--Flex Container-->
+        <div class="flex">
+          <!--First Child-->
+          <div class="First Child">
+            <h1>Subscribe to our newsletter for updates.</h1>
+            <form action="#">
+              <label for="email">
+                <input
+                  type="email"
+                  name="Email"
+                  id="email"
+                  placeholder="Email Addresss"
+                  required
+                />
+                <button class="btn">Subscribe</button>
+              </label>
+            </form>
+          </div>
+          <!--End of First Child-->
+          <!--Second Child-->
+          <div>
+            <h2>Quick Link</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Who We Are</a></li>
+              <li><a href="#">Our Philosophy</a></li>
+            </ul>
+          </div>
+          <!--End of Second Child-->
+          <!--Third Child-->
+          <div>
+            <h2>Technologies</h2>
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+            </ul>
+          </div>
+          <!--End of Third Child-->
         </div>
+        <!--End of Flex Container-->
+        <hr />
+        <!--Image-->
+        <a href="#">
+          <img
+            class="w-auto h-7"
+            src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
+            alt="CodeSpace Logo"
+          />
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
