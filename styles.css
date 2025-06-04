@@ -25,17 +25,18 @@ footer {
 
 hr {
   width: 100%;
-  margin: 20px;
+  margin: 10px;
   border: 0;
   height: 1px;
   background-color: #ff4500;
 }
-/* === === . === === === */
+/* === === === . === === === */
+
 /* Flex Content */
 
 h2,
 h3 {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .flex {
@@ -51,9 +52,44 @@ ul > li {
   list-style: none;
   margin: 10px 0;
 }
-/* === === . === === === */
+/* === === === . === === === */
+
 /* Logo Styles */
 img {
   width: auto;
   height: 28px;
+}
+/* === === === . === === === */
+
+/* Form Styles */
+
+input[type="email"] {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.btn {
+  width: auto;
+  padding: 10px 35px;
+  background-color: #c35f3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* === === === . === === === */
+
+/* Hover Effects */
+
+.btn:hover {
+  background-color: #ff5900;
+  cursor: pointer; /* form button */
+}
+
+a:hover {
+  color: #ccc;
+  font-size: 1.5rem;
+  transition: all 0.4s ease-in-out; /* links */
 }
