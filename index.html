@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Footer</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
@@ -11,8 +12,8 @@
         <!--Flex Container-->
         <div class="flex">
           <!--First Child-->
-          <div class="First Child">
-            <h1>Subscribe to our newsletter for updates.</h1>
+          <div class="flex-item">
+            <h2>Subscribe to our newsletter for updates.</h2>
             <form action="#">
               <label for="email">
                 <input
@@ -28,8 +29,8 @@
           </div>
           <!--End of First Child-->
           <!--Second Child-->
-          <div>
-            <h2>Quick Link</h2>
+          <div class="flex-item">
+            <h3>Quick Link</h3>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Who We Are</a></li>
@@ -38,8 +39,8 @@
           </div>
           <!--End of Second Child-->
           <!--Third Child-->
-          <div>
-            <h2>Technologies</h2>
+          <div class="flex-item">
+            <h3>Technologies</h3>
             <ul>
               <li><a href="#">HTML</a></li>
               <li><a href="#">CSS</a></li>
@@ -51,7 +52,7 @@
         <!--End of Flex Container-->
         <hr />
         <!--Image-->
-        <a href="#">
+        <a href="#" class="flex-item-4">
           <img
             class="w-auto h-7"
             src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
